@@ -31,3 +31,9 @@ const voti1 = classe.filter(function(studente){
 })
 
 console.log(voti1);
+
+const voti2 = classe.filter(function(studente){
+    if(studente.votoTot > 70 && studente.id > 120){
+        return studente;
+    }
+})
