@@ -1,8 +1,8 @@
 class Vips {
-  constructor(tableName, guestName, sitplace = 0) {
+  constructor(tableName, guestName, seatplace = 0) {
     this.tableName = tableName;
     this.guestName = guestName;
-    this.sitplace = sitplace;
+    this.seatplace = sitplace;
   }
 }
 
@@ -13,7 +13,7 @@ const tableList = [
 ];
 
 const segnaPosto = tableList.map(function (guest, index) {
-  return new Vips(guest.tableName = 'tavolo vip', guest.guestName = guest, guest.sitplace = index + 1);
+  return new Vips(guest.tableName = 'tavolo vip', guest.guestName = guest, guest.seatplace = index + 1);
 })
 
 console.log(segnaPosto);
