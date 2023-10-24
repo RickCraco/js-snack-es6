@@ -15,3 +15,11 @@ new Studente(196, 'Luigi Grimaldello', 68),
 new Studente(102, 'Piero della Francesca', 50),
 new Studente(120, 'Francesca da Polenta', 84)
 ]
+
+const classeUpperCase = [];
+
+classe.forEach(function(studente){
+    classeUpperCase.push(studente.nome.toUpperCase());
+})
+
+console.log(classeUpperCase);
