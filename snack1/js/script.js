@@ -11,16 +11,16 @@ const tableList = [
   'Georgina Rodriguez', 'Chiara Ferragni', 'Fedez',
   'George Clooney', 'Amal Clooney', 'Maneskin'
 ];
-/*
+
 const segnaPosto = tableList.map(function (guest, index) {
   return new Vips(guest.tableName = 'tavolo vip', guest.guestName = guest, guest.seatplace = index + 1);
 })
 
 console.log(segnaPosto);
-*/
+
 //versione non usando map che ha un valore di ritorno
 
-
+/*
 let lista = [];
 
 for(let i = 0; i < tableList.length; i++){
@@ -28,3 +28,4 @@ for(let i = 0; i < tableList.length; i++){
 }
 
 console.log(lista);
+*/
