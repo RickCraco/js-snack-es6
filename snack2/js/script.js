@@ -23,3 +23,9 @@ classe.forEach(function(studente){
 })
 
 console.log(classeUpperCase);
+
+const voti1 = classe.filter(function(studente){
+    if(studente.votoTot > 70){
+        return studente;
+    }
+})
