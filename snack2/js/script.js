@@ -16,6 +16,8 @@ new Studente(102, 'Piero della Francesca', 50),
 new Studente(120, 'Francesca da Polenta', 84)
 ]
 
+console.log(classe);
+
 const classeUpperCase = [];
 
 classe.forEach(function(studente){
