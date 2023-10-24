@@ -37,3 +37,5 @@ const voti2 = classe.filter(function(studente){
         return studente;
     }
 })
+
+console.log(voti2);
