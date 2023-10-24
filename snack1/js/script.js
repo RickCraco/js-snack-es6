@@ -24,3 +24,16 @@ class Vips{
   })
   
   console.log(segnaPosto);
+
+  //versione non usando map che ha un valore di ritorno
+
+  /*
+  let lista = [];
+
+  for(let i = 0; i < tableList.length; i++){
+    tableList[i].place = i + 1;
+    lista.push(tableList[i]);
+  }
+
+  console.log(lista);
+  */
