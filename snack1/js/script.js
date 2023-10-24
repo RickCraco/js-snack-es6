@@ -2,7 +2,7 @@ class Vips {
   constructor(tableName, guestName, seatplace = 0) {
     this.tableName = tableName;
     this.guestName = guestName;
-    this.seatplace = sitplace;
+    this.seatplace = seatplace;
   }
 }
 
