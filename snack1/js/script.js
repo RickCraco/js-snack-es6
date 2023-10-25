@@ -13,7 +13,7 @@ const tableList = [
 ];
 
 const segnaPosto = tableList.map(function (guest, index) {
-  return new Vips(guest.tableName = 'tavolo vip', guest.guestName = guest, guest.seatplace = index + 1);
+  return new Vips('tavolo vip', guest, index + 1);
 })
 
 console.log(segnaPosto);
